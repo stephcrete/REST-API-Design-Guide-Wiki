@@ -34,8 +34,8 @@ GET /dogs?limit=25&offset=50
 }
 ```
 
-```
-offset limit totalCount previousOffset nextOffset currentPage pageCount
+| offset | limit | totalCount | previousOffset | nextOffset | currentPage | pageCount |
+| --- | --- | --- | --- | --- | --- | --- |
 0	10	53	null	10	1	6
 10	10	53	0	20	2	6
 13	10	53	3	23	2	6
