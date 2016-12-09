@@ -7,7 +7,7 @@ GET .../dogs?name=foo&color=black
 
 With the above we simplify the URIs by sweeping parameters and other complexities under the question mark.
 
-You can also support Google-style search on all fields using the "q" query parameter:
+You MAY also support Google-style search on all fields using the "q" query parameter:
 ```
 GET .../dogs?q=black
 ```
