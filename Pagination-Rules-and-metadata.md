@@ -37,3 +37,6 @@ See concurrency section
 
 ## Pagination for sorting
 See sorting section
+
+## Omitting metadata
+You MAY add support for a "exclude-metadata" URI parameter if you want your API clients to be able to exclude the metadata.
