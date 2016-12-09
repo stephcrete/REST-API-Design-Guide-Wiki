@@ -25,6 +25,7 @@ Characteristics:
 
 # HEAD
 HEAD is used to retrieve headers. Responses don't have a payload (body content).
+The HEAD method SHOULD be supported by your API.
 
 Characteristics:
 * safe
@@ -68,7 +69,9 @@ Characteristics
 * the resource doesn't have to be removed immediately. A DELETE operation on a resource MAY be delayed or take time to be performed
 
 # OPTIONS
-OPTIONS is used to get the allowed communication options for the targeted resource
+OPTIONS is used to get the allowed communication options for the targeted resource.
+
+The OPTIONS method SHOULD be supported by your API.
 
 Characteristics:
 * safe
