@@ -31,6 +31,8 @@
 
 [[HTTP Status Codes]]
 
+[[HTTP Status Codes Success (2xx)]]
+
 [[Media types]]
 
 
