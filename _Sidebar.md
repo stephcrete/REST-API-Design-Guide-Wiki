@@ -26,17 +26,14 @@
 
 [[REST Resources Actions]]
 
-# HTTP methods
-...
+# HTTP
+[[HTTP Methods]]
 
-# HTTP status codes
-...
+[[HTTP status codes]]
 
-# Media types
-...
+[[Media types]]
 
-# Data formats
-...
+
 
 # Internationalization
 ...
@@ -87,10 +84,11 @@
 ...
 
 # Security recommendations
-...
+* API Keys
 
 # Miscellaneous
-* API Keys
+* Data formats
+
 * Rate limiting
 * Null values
 * Dates and times
