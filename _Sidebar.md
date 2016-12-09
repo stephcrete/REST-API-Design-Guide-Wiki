@@ -134,6 +134,8 @@
 
 [[Error handling Error details]]
 
+[[Error handling Single error example]]
+
 [[Error handling Example with parameters]]
 
 # Compression
