@@ -33,3 +33,10 @@ Use cases:
   * you SHOULD use this if the delete operation is immediate
 
 :x: You MUST NOT use this for out of bounds errors with pagination (check out the pagination section for details).
+
+# :x: 206 (Partial content)
+Means that the server has fulfilled the _partial_ GET request for the resource.
+
+The request MUST have included a _Range_ header indicating the desired range, and MAY have included an _If-Range_ header to make the request conditional.
+
+:x: You MUST NOT use this as we will not use Range headers in our APIs. Take a look at the pagination section for more details.
