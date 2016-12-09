@@ -66,7 +66,13 @@
 [[Pagination Out of range/bounds]]
 
 # Filtering
-...
+[[Filtering About]]
+
+[[Filtering Using styles]]
+
+[[Filtering Using includes]]
+
+[[Filtering Using excludes]]
 
 # Sorting
 ...
