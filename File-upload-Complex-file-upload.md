@@ -20,3 +20,5 @@ File objects MUST contain:
 
 Top-level metadata object
 * any information you see fit
+
+You MAY decide to separate the file upload from the medatada (e.g., submit metadata, return a Location header and let the client upload the file at the given location). Unless you have specific reasons, you should apply the simple file upload variant.
