@@ -48,7 +48,11 @@ The response of a successful update request
 * MUST return 200 OK
 
 # PATCH
-PATCH MAY be used for **partial** updates. See [RFC 5789](https://tools.ietf.org/html/rfc5789)
+PATCH should be considered like a diff: it provides instructions on how to change the current state of a resource to produce a new version. The entire set of changes MUST be applied atomically.
+
+PATCH MAY be used for **partial** updates. See [RFC 5789](https://tools.ietf.org/html/rfc5789). Although, we recommend using POST for partial updates instead (choices...). PATCH requests imply a different Content-Type than the resource that is being modified.
+
+If you use PATCH, you have to use a media type that defines the semantics for PATCH. For more details, refer to http://williamdurand.fr/2014/02/14/please-do-not-patch-like-an-idiot/
 
 Characteristics:
 * NOT safe
