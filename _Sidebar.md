@@ -7,7 +7,7 @@
 
 [[REST Constraints]]
 
-# Resources
+# REST resources
 [[REST Resources]]
 
 [[REST Resources Design Workflow]]
