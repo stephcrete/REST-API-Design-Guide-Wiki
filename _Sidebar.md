@@ -82,7 +82,19 @@
 [[Sorting Example]]
 
 # Searching
-...
+[[Searching About]]
+
+[[Searching Local search]]
+
+[[Searching Scoped search]]
+
+[[Searching Global search]]
+
+[[Searching Advanced search]]
+
+[[Searching Wildcards]]
+
+[[Searching Formatting]]
 
 # Long-running operations
 ...
