@@ -126,7 +126,15 @@
 [[Cache control]]
 
 # Error handling
-[[Errors]]
+[[Error handling About]]
+
+[[Error handling Expectations]]
+
+[[Error handling Status codes]]
+
+[[Error handling Error details]]
+
+[[Error handling Example with parameters]]
 
 # Compression
 [[Compression About]]
