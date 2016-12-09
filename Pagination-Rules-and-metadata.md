@@ -32,10 +32,18 @@
 * pageCount: the total number of pages
 * totalCount: the total number of elements in the collection
 
-## Pagination for concurrency control
+## Pagination metadata defaults
+Pagination defaults vary depending on the size of the data.
+
+You SHOULD use _limit=10_ and offset=0 as defaults.
+These defaults SHOULD apply even if limit/offset are not specified explicitly in the request.
+
+If each item is very large, then you MAY set the limit lower. On the opposite, if objects are very small, a larger limit could make sense (i.e., less requests = potentially increased performance perceived).
+
+## Metadata for concurrency control
 See concurrency section
 
-## Pagination for sorting
+## Metadata for sorting
 See sorting section
 
 ## Omitting metadata
