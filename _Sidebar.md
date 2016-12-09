@@ -33,6 +33,10 @@
 
 [[HTTP Status Codes Success (2xx)]]
 
+[[HTTP Status Codes Redirection (3xx)]]
+
+[[HTTP Status Codes Error (4xx)]]
+
 [[Media types]]
 
 
