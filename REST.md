@@ -1,4 +1,6 @@
-[REpresentational State Transfer (REST)](https://en.wikipedia.org/wiki/Representational_state_transfer) is an architectural style for designing Web Services, which is heavily centered on the notion of "resources" that is core to the World Wide Web.
+[REpresentational State Transfer (REST)](https://en.wikipedia.org/wiki/Representational_state_transfer) is an architectural _style_ for designing Web Services, which is heavily centered on the notion of "resources" that is core to the World Wide Web.
+
+REST is **NOT** a standard!
 
 Most often, so-called RESTful Web Services communicate over HTTP and expose resources using Uniform Resource Identifiers (URIs).
 
