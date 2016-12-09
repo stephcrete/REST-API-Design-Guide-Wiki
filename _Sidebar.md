@@ -12,7 +12,7 @@
 
 [[REST Resources Design Workflow]]
 
-[[REST Resources URIs]]
+[[REST-Resources---URIs]]
 
 # HTTP methods
 ...
