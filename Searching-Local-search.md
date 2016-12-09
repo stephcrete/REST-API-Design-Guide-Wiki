@@ -11,4 +11,4 @@ You can also support Google-style search on all fields using the "q" query param
 ```
 GET .../dogs?q=black
 ```
-In the example above, 'q' represents the query string. Wildcards can also be used.
+In the example above, 'q' represents the query string. Wildcards MAY also be used.
