@@ -22,6 +22,8 @@
 
 [[REST Resources Many to many Relations]]
 
+[[REST Resources Relations expansion]]
+
 # HTTP methods
 ...
 
