@@ -17,4 +17,5 @@ GET /dogs/1?fields=name,color,location
 ```
 
 > For collection resources, your API should be intelligent enough and infer that the fields listed correspond to entity fields and NOT to the representation.
-That is to say: your API SHOULD NOT require clients to specify fields like: "items.id" just to state that they want the id field which will be within an object in the "items" array returned by the collection resource; instead, your API should accept "id" as field value and filter intelligently.
+
+>That is to say: your API SHOULD NOT require clients to specify fields like: "items.id" just to state that they want the id field which will be within an object in the "items" array returned by the collection resource; instead, your API should accept "id" as field value and filter intelligently.
