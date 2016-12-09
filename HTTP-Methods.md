@@ -53,7 +53,6 @@ PATCH MAY be used for **partial** updates. See [RFC 5789](https://tools.ietf.org
 Characteristics:
 * NOT safe
 * NOT idempotent
-NOT idempotent
 
 # DELETE
 DELETE is used to... delete resources.
@@ -90,4 +89,4 @@ Characteristics:
 
 Rules:
 * you SHOULD NOT use PUT for creation; instead we recommend using POST in most cases
-* you MUST NOT use PUT for partial updates (partial updates are NOT idempotent)
+* :x: you MUST NOT use PUT for partial updates (partial updates are NOT idempotent)
