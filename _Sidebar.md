@@ -143,8 +143,6 @@
 # Compression
 [[Compression About]]
 
-...
-
 # Bulk operations
 [[Bulk operations About]]
 
@@ -168,8 +166,14 @@
 
 [[Bulk operations Create and update example]]
 
-# File uploads
-...
+# File upload
+[[File upload About]]
+
+[[File upload File sizes]]
+
+[[File upload Simple file upload]]
+
+[[File upload Complex file upload]]
 
 # API Versioning
 ...
