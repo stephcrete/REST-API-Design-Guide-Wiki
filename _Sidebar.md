@@ -75,7 +75,11 @@
 [[Filtering Using excludes]]
 
 # Sorting
-...
+[[Sorting About]]
+
+[[Sorting Metadata]]
+
+[[Sorting Example]]
 
 # Searching
 ...
