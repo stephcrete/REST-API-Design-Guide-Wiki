@@ -18,6 +18,8 @@
 
 [[REST Resources Single items and collections]]
 
+[[REST Resources Relations]]
+
 # HTTP methods
 ...
 
