@@ -125,6 +125,9 @@
 
 [[Cache control]]
 
+# Error handling
+[[Errors]]
+
 # Compression
 [[Compression About]]
 
@@ -152,9 +155,6 @@
 [[Bulk operations Update example]]
 
 [[Bulk operations Create and update example]]
-
-# Error handling
-...
 
 # File uploads
 ...
