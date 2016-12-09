@@ -44,11 +44,18 @@
 [[Media types]]
 
 # CRUD Operations
+[[CRUD About]]
+
+[[CRUD Create Single item]]
+
 [[CRUD Retrieve Single item]]
+
 [[CRUD Retrieve Collection]]
+
 [[CRUD Update Single item]]
-[[CRUD Update Collection]]
+
 [[CRUD Delete Single item]]
+
 [[CRUD Delete Collection]]
 
 # Pagination
