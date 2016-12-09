@@ -2,9 +2,21 @@
 
 `URI = scheme "://" authority "/" path [ "? query ] [ "#" fragment ]`
 
-Example: ``
+Example: `https://www.nbb.be/hello-world?param1=value1&param2=value2#section1`
 
-In our REST APIs, the URIs MUST be:
+In the above example:
+* protocol/scheme: https://
+* sub-domain: www
+* domain: nbb.be
+* path: /hello-world
+* query string: ?param1=value1
+* query parameters
+  * param1: value1 (key: value)
+  * param2: value2
+  * separator: &
+* fragment: section1
+
+RULES: in NBB's REST APIs, the URIs MUST be:
 * completely in lowercase
 * with kebab/spinal case: a-super-uri (i.e., hyphens to separate elements)
 * as flat as possible (resources should be just below the API entry point)
