@@ -1,5 +1,6 @@
 # Warning
-For security reasons, when the server i
+For security reasons, when the server encounters an error that isn't related to the client request (i.e., not the fault of the client), it should not provide ANY details to the client. You never want to expose the internals of your server side to your API clients.
+
 # 500 (Internal Server Error)
 The server encountered an unexpected condition which prevented it from fulfilling the request
 
