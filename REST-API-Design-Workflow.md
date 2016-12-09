@@ -15,3 +15,7 @@ Second, split the data set into resources, then for each resource:
 * design integration with existing resources
   * how is this resource related to other ones?
   * do other resources need to evolve to accomodate for this new resource?
+
+> If you find things that don't fit the resource model, you might be facing a case where you need to define an _action_ rather than a _resource_. In that case, take a look at the corresponding section of the design guide.
+
+> DO NOT try to create a 1:1 mapping between your relational model and your REST API, as it will only lead to maintenance issues down the road. Consider your data model and the REST resources as separate (although related) things, each with their own set of constraints and design.
