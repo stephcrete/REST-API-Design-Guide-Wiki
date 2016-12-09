@@ -45,3 +45,5 @@ GET /dogs?limit=25&offset=50
 | 50 | 10 | 53 | 40 | null | 6 | 6 |
 
 ```
+
+> Handy formula: offset = (page - 1) * limit +1
