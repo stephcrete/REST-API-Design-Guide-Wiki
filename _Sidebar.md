@@ -24,6 +24,8 @@
 
 [[REST Resources Relations expansion]]
 
+[[REST Resources Actions]]
+
 # HTTP methods
 ...
 
