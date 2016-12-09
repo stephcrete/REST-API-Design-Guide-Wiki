@@ -35,7 +35,9 @@
 
 [[HTTP Status Codes Redirection (3xx)]]
 
-[[HTTP Status Codes Error (4xx)]]
+[[HTTP Status Codes Client Error (4xx)]]
+
+[[HTTP Status Codes Server Error (5xx)]]
 
 [[Media types]]
 
