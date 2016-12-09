@@ -173,6 +173,8 @@
 
 [[File upload Simple file upload]]
 
+[[File upload Simple file upload example]]
+
 [[File upload Complex file upload]]
 
 # API Versioning
