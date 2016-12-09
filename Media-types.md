@@ -35,3 +35,17 @@ Content-Type: vnd.mycompany-employee-v1+json
 ```
 
 If the application knows that content type, it can parse it much more efficiently.
+
+# Rules
+The media type MUST be specified in...
+* Requests
+  * Accept: <media type(s)> (http header)
+    * expected response content type
+* Responses
+  * Content-Type: <media type> (http header)
+
+In addition your API...
+* MUST send a 406 (Not Acceptable) error code if it cannot generate any of the client's preferred media types.
+* MUST send a 415 (Unsupported Media Type) error code if it cannot process the client's supplied media type.
+* SHOULD try to leverage vendor-specific media types when possible
+  * it helps convey not only data format information, but semantic information about the data
