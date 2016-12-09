@@ -6,7 +6,7 @@ There are two main types of updates to consider:
   * in this case ALL resource properties MUST be provided (for idempotency)
 
 # Target
-To update a single item you SHOULD issue a POST or POST request against the single item (e.g., .../v1/employees/123 to update employee 123).
+To update a single item you SHOULD issue a POST or PUT request against the single item (e.g., .../v1/employees/123 to update employee 123).
 
 # Rules for the client
 * SHOULD use POST for partial updates
