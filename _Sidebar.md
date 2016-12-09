@@ -7,10 +7,10 @@
 
 [[REST Constraints]]
 
+# Resources
 [[REST Resources]]
-
-# Resources design
 [[REST API Design Workflow]]
+[[REST Resources URIs]]
 
 # HTTP methods
 ...
