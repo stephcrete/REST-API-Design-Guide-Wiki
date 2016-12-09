@@ -16,6 +16,8 @@
 
 [[REST Resources URIs]]
 
+[[REST Resources Single items and collections]]
+
 # HTTP methods
 ...
 
