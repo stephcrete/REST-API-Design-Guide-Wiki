@@ -29,7 +29,7 @@
 # HTTP
 [[HTTP Methods]]
 
-[[HTTP status codes]]
+[[HTTP Status Codes]]
 
 [[Media types]]
 
