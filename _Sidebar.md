@@ -20,6 +20,8 @@
 
 [[REST Resources Relations]]
 
+[[REST Resources Many to many Relations]]
+
 # HTTP methods
 ...
 
