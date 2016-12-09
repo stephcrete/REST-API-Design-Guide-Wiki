@@ -57,7 +57,13 @@
 [[CRUD Delete Single item]]
 
 # Pagination
-...
+[[Pagination About]]
+
+[[Pagination Rules and metadata]]
+
+[[Pagination Example]]
+
+[[Pagination Out of range/bounds]]
 
 # Filtering
 ...
