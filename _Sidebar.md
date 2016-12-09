@@ -41,11 +41,6 @@
 
 [[Media types]]
 
-
-
-# Internationalization
-...
-
 # Parameters
 ...
 
@@ -95,10 +90,14 @@
 * API Keys
 
 # Miscellaneous
-* Data formats
+[[Data formats]]
 
-* Rate limiting
-* Null values
-* Dates and times
-* Redirections
+[[Internationalization]]
 
+[[Rate limiting]]
+
+[[Null values]]
+
+[[Dates and times]]
+
+[[Redirections]]
