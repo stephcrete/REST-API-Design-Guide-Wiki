@@ -97,7 +97,13 @@
 [[Searching Formatting]]
 
 # Long-running operations
-...
+[[Long-running Operations About]]
+
+[[Long-running Operations Flow]]
+
+[[Long-running Operations Rules]]
+
+[[Long-running Operations Example]]
 
 # Concurrency control
 ...
