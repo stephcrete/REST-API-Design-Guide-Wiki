@@ -121,9 +121,9 @@
 
 [[Caching and conditional requests HTTP headers]]
 
-[[Caching and conditional requests Conditional requests]]
+[[Conditional requests]]
 
-[[Caching and conditional requests Cache control]]
+[[Cache control]]
 
 # Compression
 ...
