@@ -24,7 +24,7 @@ The URIs MUST be:
 * with kebab/spinal case: a-super-uri (i.e., hyphens to separate elements)
 * as flat as possible (resources should be just below the API entry point)
   * api/v1/employees rather than api/v1/enterprise/department/service/division/employees
-  * do NOT cross-reference everything, there's no need to repeat the database relations in the URL representations
+  * :x: do NOT cross-reference everything, there's no need to repeat the database relations in the URL representations
     * ⚠️ links like /api/v1/employees/{uuid}/manager don't need to exist because there's already an identifier for that resource: /employees/{uuid}
     * :white_check_mark: instead, you can either nest other objects in the responses or provide links to those objects
 that's a tradeoff between client or server effort
