@@ -4,7 +4,7 @@ Use cases:
 * bulk creation
 * bulk update
 
-You MUST NOT use 200 OK for everything!
+:x: You MUST NOT use 200 OK for everything!
 
 # 201 (Created)
 Should be used after a successful POST creation request.
