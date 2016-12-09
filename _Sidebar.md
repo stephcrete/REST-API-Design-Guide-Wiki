@@ -12,6 +12,8 @@
 
 [[REST Resources Design Workflow]]
 
+[[REST Resources Naming]]
+
 [[REST Resources URIs]]
 
 # HTTP methods
