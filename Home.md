@@ -25,6 +25,19 @@ At the National Bank of Belgium we have chosen to limit ourselves to Level 2 of 
 
 If you're looking for a _truly_ RESTful API design guide, you should probably continue looking elsewhere :)
 
+# Features
+Our REST API Design Guide covers... 
+* naming conventions and best practices (e.g., resource naming rules)
+* the design of all major elements you would need for business applications
+  * CRUD
+  * pagination & associated metadata
+  * sorting
+  * filtering
+  * bulk operations
+  * concurrency control
+  * error handling
+  * ...
+
 # Terms
 Rules and guidelines in this design guide have different levels. Some are optional while some others are mandatory. Also, there are recommendations against some approaches, as well as things that are simply forbidden.
 
