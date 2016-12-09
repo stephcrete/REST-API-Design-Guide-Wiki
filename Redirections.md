@@ -5,3 +5,9 @@ Your API clients should assume that any request may result in a redirection. Rec
 
 # Rules
 Redirect responses SHOULD always provide a Location header field containing the URI of the resource to which the client should repeat the requests.
+
+# Permanent redirections
+When a redirection is permanent, you should return a 301 status code. It means that the URI used by the client make the request has been superseded by the one specified in the Location header field of the response. This and all future requests should be directed to the new URI.
+
+# Temporary redirections
+When a redirection is temporary, you SHOULD return a 303 or 307 status code (see the status codes table for more guidance).
