@@ -56,8 +56,6 @@
 
 [[CRUD Delete Single item]]
 
-[[CRUD Delete Collection]]
-
 # Pagination
 ...
 
