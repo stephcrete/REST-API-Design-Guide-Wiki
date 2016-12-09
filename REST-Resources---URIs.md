@@ -16,7 +16,7 @@ In the above example:
   * separator: &
 * fragment: section1
 
-RULES: in NBB's REST APIs, the URIs MUST be:
+RULES: the URIs MUST be:
 * completely in lowercase
 * with kebab/spinal case: a-super-uri (i.e., hyphens to separate elements)
 * as flat as possible (resources should be just below the API entry point)
