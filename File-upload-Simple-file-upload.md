@@ -37,3 +37,20 @@ For each part:
 
 The last part MUST be followed by the boundary defined in the request's Content-Type header
 * the client SHOULD specify the charset parameter in the Content-Type header
+
+# Text for agents unable to handle multipart
+Before the first part's boundary (and after the last), you MAY add text for agents that are not able to handle the multipart media type correctly.
+
+Example:
+```
+POST .../upload
+Content-Type: multipart/mixed; charset=utf-8; boundary="---------------------------d0b473e2-0abf-433e-8c74-faee35ab6e91"
+ 
+Hey there, I'm going to be ignored!
+ 
+---------------------------d0b473e2-0abf-433e-8c74-faee35ab6e91
+...
+---------------------------d0b473e2-0abf-433e-8c74-faee35ab6e91
+ 
+Here there, I'm also going to be ignored!
+```
