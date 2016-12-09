@@ -126,7 +126,7 @@
 [[Cache control]]
 
 # Compression
-...
+[[Compression About]]
 
 # Bulk operations
 ...
