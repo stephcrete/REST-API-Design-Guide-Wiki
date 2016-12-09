@@ -177,6 +177,8 @@
 
 [[File upload Complex file upload]]
 
+[[File upload Complex file upload example]]
+
 # API Versioning
 ...
 
