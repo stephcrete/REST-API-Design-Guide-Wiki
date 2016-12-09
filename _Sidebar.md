@@ -16,6 +16,8 @@
 
 [[REST Resources URIs]]
 
+[[REST Resources Parameters]]
+
 [[REST Resources Single items and collections]]
 
 [[REST Resources Relations]]
