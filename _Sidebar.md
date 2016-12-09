@@ -9,7 +9,9 @@
 
 # Resources
 [[REST Resources]]
-[[REST API Design Workflow]]
+
+[[REST Resources Design Workflow]]
+
 [[REST Resources URIs]]
 
 # HTTP methods
