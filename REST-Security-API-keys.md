@@ -29,3 +29,20 @@ Based on the collected information, you can also define costs associated with th
 Two options:
 * Authorization: ideally, your API key should be one of the parameters of the [Authorization header](https://tools.ietf.org/html/rfc7235#section-4.2)
 * X-API-Key: another approach is to use a customer HTTP header
+
+# Security guidelines
+* API keys are sensitive but can easily be lost, stolen, etc (just like any password)
+* DO NOT base all your security on the API key
+  * authentication and authorization MUST NOT be based solely on the presence of an API key
+* API keys MUST be passed either via headers or within the body of client requests. They MUST NOT be passed within the URL (cfr https://www.owasp.org/index.php/REST_Security_Cheat_Sheet)
+  * the reason for this is that when they are in the URL, they can be captured in the logs of Web servers, proxies, etc.
+* API keys MUST ONLY be exchanged over secure channels
+* API keys MUST be stored in encrypted form
+  * since they're like passwords, they have the same confidentiality requirements
+* API keys MUST ONLY be readable by their owner
+  * again, the confidentiality of the API keys is important
+* API keys entropy matters
+  * UUIDs can be used 
+  * can be encoded with Url62 (i.e., URL-safe encoding)
+* API keys MUST be revoked and renewed whenever you think they might have been compromised
+* API keys MUST NEVER be exposed in the UI
