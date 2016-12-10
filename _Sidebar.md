@@ -185,7 +185,7 @@
 # Security recommendations
 [[REST Security Recommendations]]
 
-[[REST Security API Keys]]
+[[REST Security API keys]]
 
 # Miscellaneous
 [[Data formats]]
