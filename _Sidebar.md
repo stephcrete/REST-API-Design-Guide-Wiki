@@ -185,6 +185,8 @@
 # Security recommendations
 [[REST Security Recommendations]]
 
+[[REST Security Transport Layer]]
+
 [[REST Security Error handling]]
 
 [[REST Security Insecure direct object references]]
