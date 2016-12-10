@@ -26,4 +26,4 @@ Here are some guiding principles for deciding when a new version of your API is 
 
 > :white_check_mark: Maintain at least one version back, so that other applications depending on your API have time to upgrade to the new version rather than break them straight away.
 
-> Create and maintain a changelog and a migration guide for your APIs so that clients can easily see what changed and how they can upgrade.
+> :white_check_mark: Create and maintain a changelog and a migration guide for your APIs so that clients can easily see what changed and how they can upgrade.
