@@ -185,7 +185,7 @@
 # Security recommendations
 [[REST Security Recommendations]]
 
-[[REST Security Transport Layer]]
+[[REST Security Transport layer]]
 
 [[REST Security Error handling]]
 
