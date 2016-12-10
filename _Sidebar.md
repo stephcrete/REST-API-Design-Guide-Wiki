@@ -191,6 +191,8 @@
 
 [[REST Security CORS]]
 
+[[REST Security Updates and consistency]]
+
 [[REST Security API keys]]
 
 # Miscellaneous
