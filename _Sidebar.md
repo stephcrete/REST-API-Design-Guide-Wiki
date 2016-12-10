@@ -185,6 +185,8 @@
 # Security recommendations
 [[REST Security Recommendations]]
 
+[[REST Security CORS]]
+
 [[REST Security API keys]]
 
 # Miscellaneous
