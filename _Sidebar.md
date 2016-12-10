@@ -1,13 +1,12 @@
-# Overview
 [[History]]
 
+## REST
 [[REST]]
 
 [[REST API Design Goals]]
 
 [[REST Constraints]]
 
-# REST resources
 [[REST Resources]]
 
 [[REST Resources Design Workflow]]
@@ -27,6 +26,10 @@
 [[REST Resources Relations expansion]]
 
 [[REST Resources Actions]]
+
+[[REST API Versioning]]
+
+[[REST API Documentation]]
 
 # HTTP
 [[HTTP Methods]]
@@ -178,12 +181,6 @@
 [[File upload Complex file upload]]
 
 [[File upload Complex file upload example]]
-
-# API Versioning
-...
-
-# API documentation
-...
 
 # Security recommendations
 * API Keys
