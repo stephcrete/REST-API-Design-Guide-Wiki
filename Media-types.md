@@ -28,8 +28,8 @@ Example with a request:
 POST .../v1/employees
 Content-Type: vnd.mycompany-employee-v1+json
 {
-    "firstName": "Dubois",
-    "lastName": "Sebastien",
+    "firstName": "foo",
+    "lastName": "bar",
     ...
 }
 ```
