@@ -183,7 +183,9 @@
 [[File upload Complex file upload example]]
 
 # Security recommendations
-* API Keys
+[[REST Security Recommendations]]
+
+[[REST Security API Keys]]
 
 # Miscellaneous
 [[Data formats]]
