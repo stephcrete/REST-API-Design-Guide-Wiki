@@ -187,6 +187,8 @@
 
 [[REST Security Error handling]]
 
+[[REST Security Insecure direct object references]]
+
 [[REST Security CORS]]
 
 [[REST Security API keys]]
