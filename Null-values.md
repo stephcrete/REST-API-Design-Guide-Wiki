@@ -5,8 +5,8 @@ GET /user/1
 Accept: application/json
 HTTP/1.1 200 OK
 {
-    "firstName": "Sebastien",
-    "lastName": "Dubois",
+    "firstName": "foo",
+    "lastName": "bar",
     "birthDate": null
 }
 ```
