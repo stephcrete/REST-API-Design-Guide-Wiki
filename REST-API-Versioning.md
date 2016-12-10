@@ -15,7 +15,7 @@ Examples:
 * .../api/v2
 * ...
 
-> You MUST NOT use semver or similar versioning schemes (e.g., do NOT use v1.x or v1.x.y) as that would just mean that you create too many versions. Detailed version numbers imply a granularity of versioning that doesn't work well with APIs!
+> :warning You MUST NOT use semver or similar versioning schemes (e.g., do NOT use v1.x or v1.x.y) as that would just mean that you create too many versions. Detailed version numbers imply a granularity of versioning that doesn't work well with APIs!
 
 Here are some guiding principles for deciding when a new version of your API is actually needed:
 * you SHOULD NOT create a new API version when you add fields/attributes to existing resources, if clients can simply ignore those (i.e., if clients MUST NOT add those in their requests)
