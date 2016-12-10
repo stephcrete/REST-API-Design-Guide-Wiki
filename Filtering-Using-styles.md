@@ -9,11 +9,11 @@ GET /users/<uuid>
 200 OK
 {
     "uuid": "<uuid>",
-    "firstName": "Sebastien",
-    "lastName": "Dubois",
+    "firstName": "foo",
+    "lastName": "bar",
     "street": "...",
     "city": "...",
-    "postCode": "7050",
+    "postCode": "1000",
     "dateOfBirth": "...",
     ...
 }
@@ -27,8 +27,8 @@ GET /users/<uuid>?style=compact
 200 OK
 {
     "uuid": "<uuid>",
-    "firstName": "Sebastien",
-    "lastName": "Dubois"
+    "firstName": "foo",
+    "lastName": "bar"
 }
 ```
 
