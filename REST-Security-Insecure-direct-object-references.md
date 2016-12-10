@@ -1,5 +1,6 @@
-# Avoid Insecure Direct Object References (IDOR)
-Whenever you expose data to the outside world, you MUST avoid exposing direct object references.
+Insecure Direct Object References (IDOR) is part of the OWASP top 10 vulnerabilities.
+
+Whenever you expose data to the outside world, you MUST avoid exposing direct object references, because that is insecure.
 
 The following page provides a good overview of the important security issues that you create through this: https://www.owasp.org/index.php/Top_10_2013-A4-Insecure_Direct_Object_References
 
