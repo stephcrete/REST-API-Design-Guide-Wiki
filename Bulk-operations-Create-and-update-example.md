@@ -8,8 +8,8 @@ POST /employees
             ...
         },
         {
-            "firstName": "Dubois",
-            "lastName": "Sebastien",
+            "firstName": "foo",
+            "lastName": "bar",
             ...
         },
         ...
