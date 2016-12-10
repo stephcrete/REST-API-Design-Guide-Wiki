@@ -1,0 +1,1 @@
+This project is distributed under the terms of the [EUPL FOSS license](https://github.com/NationalBankBelgium/REST-API-Design-Guide/blob/master/LICENSE.md)
