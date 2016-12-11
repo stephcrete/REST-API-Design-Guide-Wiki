@@ -53,7 +53,7 @@ PATCH should be considered like a diff: it provides instructions on how to chang
 
 PATCH MAY be used for **partial** updates. See [RFC 5789](https://tools.ietf.org/html/rfc5789). Although, we recommend using POST for partial updates instead (choices...). PATCH requests imply a different Content-Type than the resource that is being modified.
 
-If you use PATCH, you have to use a media type that defines the semantics for PATCH. For more details, refer to http://williamdurand.fr/2014/02/14/please-do-not-patch-like-an-idiot/
+If you use PATCH, you have to use a media type that defines the semantics for PATCH. For more details, refer to [RFC7396](https://tools.ietf.org/html/rfc7396) & http://williamdurand.fr/2014/02/14/please-do-not-patch-like-an-idiot/
 
 Characteristics:
 * NOT safe
