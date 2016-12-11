@@ -20,7 +20,7 @@ There are various standardization efforts that cover a lot of ground and multipl
 While preparing for the development of RESTful APIs for the National Bank of Belgium, we've decided to create our own design guide, with our own choices, covering our current and known future needs.
 
 ## REST maturity level
-Being truly RESTful, according to experts means (among other things) implementing [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS). While that is appealing, it also has security implications. We always say that security by obscurity is not security, but providing attackers with a full of your API is not necessarily wise..
+Being truly RESTful, according to experts means (among other things) implementing [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS). While that is appealing, it also has security implications. We always say that security by obscurity is not security, but providing attackers with full discoverability of your API is not necessarily wise..
 
 At the National Bank of Belgium we have chosen to limit ourselves to Level 2 of [Richardson's Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html).
 
