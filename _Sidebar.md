@@ -183,7 +183,7 @@
 [[File upload Complex file upload example]]
 
 # Security recommendations
-[[REST Security Recommendations]]
+[[REST Security General recommendations]]
 
 [[REST Security Transport layer]]
 
