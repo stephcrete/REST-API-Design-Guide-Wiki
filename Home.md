@@ -19,7 +19,7 @@ There are various standardization efforts that cover a lot of ground and multipl
 
 While preparing for the development of our APIs, we've decided to create our own design guide, with our own choices, covering our current and known future needs.
 
-## REST-like or RESTful?
+## REST-like or truly RESTful?
 Leonard Richardson has listed different "maturity levels" for REST APIs. This is covered in details here: http://martinfowler.com/articles/richardsonMaturityModel.html
 
 The Level 3, "Hypermedia Controls" introduces the notion of "discoverability" of the REST API, allowing your clients to "discover" the possible interactions within the responses provided by the server. This is often referred to as "HATEOAS" (Hypermedia As The Engine of Application State).
