@@ -2,7 +2,7 @@
 Welcome!
 
 This is the REST API Design Guide of the [National Bank of Belgium](https://www.nbb.be).
-This guide describes all design choices made for the creation of RESTful APIs at the National Bank of Belgium.
+This guide describes all design choices made for the creation of REST-like APIs at the National Bank of Belgium.
 
 # Why
 Choices choices choices...
@@ -15,21 +15,26 @@ There are many design choices to make:
 
 When there are many options to choose from, development teams can argue forever about the best solution for each use case.
 
-There are various standardization efforts that cover a lot of ground and multiple ways to formalize REST APIs (e.g., json-api, OData, OpenAPI, ...) but none that catered for all aspects we wanted to cover in the REST APIs of the National Bank of Belgium.
+There are various standardization efforts that cover a lot of ground and multiple ways to formalize "REST" APIs (e.g., json-api, OData, OpenAPI, ...) but none that catered for all aspects we wanted to cover in the APIs of the National Bank of Belgium.
 
-While preparing for the development of RESTful APIs for the National Bank of Belgium, we've decided to create our own design guide, with our own choices, covering our current and known future needs.
+While preparing for the development of our APIs, we've decided to create our own design guide, with our own choices, covering our current and known future needs.
 
-## REST maturity level
-Leonard Richardson has listed different "maturity levels" for REST APIs.
-This is covered in details here: http://martinfowler.com/articles/richardsonMaturityModel.html
+## REST-like or RESTful?
+Leonard Richardson has listed different "maturity levels" for REST APIs. This is covered in details here: http://martinfowler.com/articles/richardsonMaturityModel.html
 
-The Level 3, "Hypermedia Controls" introduces the notion of "discoverability" to the REST API, allowing your clients to "discover" the possible interactions within the responses provided by the server. This is often referred to as "HATEOAS" (Hypermedia As The Engine of Application State).
+The Level 3, "Hypermedia Controls" introduces the notion of "discoverability" of the REST API, allowing your clients to "discover" the possible interactions within the responses provided by the server. This is often referred to as "HATEOAS" (Hypermedia As The Engine of Application State).
 
-While that concept is appealing, it also has security implications. We always say that security by obscurity is not security, but providing attackers with full discoverability of your API is not necessarily wise..
+Roy Fielding (creator of REST) stated clearly that level 3 of the maturity model is actually mandatory for an API to be called a REST API: http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven
 
-At the National Bank of Belgium we have chosen to limit ourselves to Level 2 of [Richardson's Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html).
+Nevertheless, so far, we have chosen not to implement HATEOAS in our design; although this doesn't mean that we cannot add support for it at a later time. Take this choice with a grain of salt, it remains arbitrary. You might prefer implementing HATEOAS or similar solutions to go further with decoupling your client and server implementations and make your API truly RESTful. 
 
-Take this choice with a grain of salt, it remains somehow arbitrary. You might prefer implementing HATEOAS or similar solutions to go further with decoupling your client and server implementations. There are tools and libraries that can help you with implementing support for level 3 in an easy way (e.g., [Spring HATEOAS](http://projects.spring.io/spring-hateoas/), ...).
+There are tools and libraries that can help you with implementing support for level 3 in an easy way (e.g., [Spring HATEOAS](http://projects.spring.io/spring-hateoas/), ...).
+
+*So to be clear, this is not a truly RESTful API design guide.*
+
+If you're curious, we had a very interesting discussion over this here:
+* https://github.com/NationalBankBelgium/REST-API-Design-Guide/issues/8
+* https://github.com/NationalBankBelgium/REST-API-Design-Guide/issues/9
 
 # Features
 Our REST API Design Guide covers... 
