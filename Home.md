@@ -20,11 +20,16 @@ There are various standardization efforts that cover a lot of ground and multipl
 While preparing for the development of RESTful APIs for the National Bank of Belgium, we've decided to create our own design guide, with our own choices, covering our current and known future needs.
 
 ## REST maturity level
-Being truly RESTful, according to experts means (among other things) implementing [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS). While that is appealing, it also has security implications. We always say that security by obscurity is not security, but providing attackers with full discoverability of your API is not necessarily wise..
+Leonard Richardson has listed different "maturity levels" for REST APIs.
+This is covered in details here: http://martinfowler.com/articles/richardsonMaturityModel.html
+
+The Level 3, "Hypermedia Controls" introduces the notion of "discoverability" to the REST API, allowing your clients to "discover" the possible interactions within the responses provided by the server. This is often referred to as "HATEOAS" (Hypermedia As The Engine of Application State).
+
+While that concept is appealing, it also has security implications. We always say that security by obscurity is not security, but providing attackers with full discoverability of your API is not necessarily wise..
 
 At the National Bank of Belgium we have chosen to limit ourselves to Level 2 of [Richardson's Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html).
 
-If you're looking for a _truly_ RESTful API design guide, you should probably continue looking elsewhere :)
+Take this choice with a grain of salt, it remains somehow arbitrary. You might prefer implementing HATEOAS or similar solutions to go further with decoupling your client and server implementations. There are tools and libraries that can help you with implementing support for level 3 in an easy way (e.g., [Spring HATEOAS](http://projects.spring.io/spring-hateoas/), ...).
 
 # Features
 Our REST API Design Guide covers... 
