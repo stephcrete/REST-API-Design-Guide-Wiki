@@ -17,3 +17,5 @@ When the client updates a resource, it MUST provide an up to date ETag value in 
 If both ETag values match, then it means that the client has the latest/up to date version, thus the update can go through.
 
 If the client has a different ETag value (i.e., outdated or invalid), then it means that it tries to update stale data. In that case, a 412 (Precondition Failed) error SHOULD be returned.
+
+> If the server expects a conditional request for update/delete operations and it isn't present in the client request, then it SHOULD return a 428 (Precondition Required)
