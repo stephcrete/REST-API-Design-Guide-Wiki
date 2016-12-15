@@ -9,3 +9,6 @@ If you implement this, then your API should use the following HTTP headers:
   * how many API calls remain
 * X-RateLimit-Reset
   * remaining window before reset of the rate limit (UTC epoch seconds)
+
+# HTTP status codes to use
+* 429 (Too Many Requests): when the client sent too many requests in a given time frame ([RFC 6585](https://tools.ietf.org/html/rfc6585))
