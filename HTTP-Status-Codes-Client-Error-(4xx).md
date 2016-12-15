@@ -78,3 +78,11 @@ Use cases:
   * business rules violations would occur if the request was accepted
 
 Reference: http://www.bennadel.com/blog/2434-http-status-codes-for-invalid-data-400-vs-422.htm
+
+# 428 (Precondition Required)
+This code should be used when the server expects a conditional request (e.g., for update or delete operations) and it isn't present in the client request
+
+Use cases:
+* concurrency: when the client MUST send a conditional request (e.g., update with the If-Match header)
+
+Reference: https://tools.ietf.org/html/rfc6585
