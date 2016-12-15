@@ -31,15 +31,15 @@
       <td align="center">1.0</td>
       <td align="center">2016-12-09</td>
       <td align="center">@dSebastien</td>
-      <td></td>
+      <td>...</td>
     </tr>
     <tr>
-      <td align="center"></td>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">...</td>
+      <td align="center">...</td>
+      <td align="center">...</td>
       <td>
           <ul>
-             <li>Published on GitHub</li>
+             <li>...</li>
           </ul>
       </td>
     </tr>
