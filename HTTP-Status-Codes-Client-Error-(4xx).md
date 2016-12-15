@@ -86,3 +86,11 @@ Use cases:
 * concurrency: when the client MUST send a conditional request (e.g., update with the If-Match header)
 
 Reference: https://tools.ietf.org/html/rfc6585
+
+# 429 (Too Many Requests)
+The client has sent too many requests in a given time frame.
+
+Use cases:
+* rate limiting: when limits have been hit and not reset yet
+
+Reference: https://tools.ietf.org/html/rfc6585
