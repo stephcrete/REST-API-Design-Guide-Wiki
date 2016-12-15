@@ -31,7 +31,11 @@
       <td align="center">1.0</td>
       <td align="center">2016-12-09</td>
       <td align="center">@dSebastien</td>
-      <td align="left">Published on GitHub</td>
+      <td align="left">
+        <ul>
+          <li>Published on GitHub</li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
