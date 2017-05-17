@@ -38,7 +38,16 @@ With the above structure, you make it very clear that warnings are not PART of t
 ## When to include/exclude warnings
 When warnings are raised subsequently to a CREATE operation, they SHOULD be returned directly. This behavior should not be optional. We assume that providing the warnings upon creation makes sense in most cases.
 
-When API clients GET existing resources, they MAY decide to exclude the metadata. It is up to you to decide what should be the default behavior for your application/specific resource, but you SHOULD definitely consider adding support for excluding warnings (or even the whole metadata object); cfr filtering by excludes.
+When API clients GET existing resources, they MAY decide to exclude the metadata. It is up to you to decide what should be the default behavior for your application/specific resource, but you SHOULD definitely consider adding support for excluding warnings (or even the whole metadata object):
+
+```
+GET .../contacts/<uuid>
+-> returns the representation including the metadata/warnings
+...
+GET .../contacts/<uuid>?style=compact
+-> returns the representation without the metadata/warnings
+...
+```
 
 This may be seen as an optimization, but mobile usage scenarios and costly data plans should not be ignored when designing your API.
 
