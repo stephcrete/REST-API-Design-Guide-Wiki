@@ -7,6 +7,16 @@
       <th align="left">Comments</th>
     </tr>
     <tr>
+      <td align="center">1.3</td>
+      <td align="center">2017-05-17</td>
+      <td align="center">@dSebastien</td>
+      <td align="left">
+        <ul>
+          <li>Error handling: added a page for providing some guidance regarding how to handle "warnings": [[Error handling Warnings]]</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td align="center">1.2</td>
       <td align="center">2016-12-15</td>
       <td align="center">@dSebastien</td>
