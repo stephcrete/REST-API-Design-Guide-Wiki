@@ -84,3 +84,6 @@ In addition, it SHOULD also include the following attributes:
   * this is useful for bulk operations where the error needs to be mapped back to a specific item in the source collection that was given
 
 You MAY add any other relevant information. Just be careful not to expose security-sensitive information when doing so.
+
+## Error keys/codes
+Each error should have a unique "key/code" (e.g., detailKey or combination of titleKey and detailKey) as it will allow your API clients to add more intelligence. If you document all error "keys/codes" in your API specifications, then clients may check for those specific errors and build a better user experience based on those.
