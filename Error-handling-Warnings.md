@@ -28,12 +28,26 @@ For example:
     ...
     metadata: {
         warnings: [
-            <whatever you want>
+            ...
         ]
     }
 }
 ```
+
 With the above structure, you make it very clear that warnings are not PART of the actual data but are metadata.
+
+The array of warnings SHOULD follow the representation that we have chosen for errors, based on RFC 7807. You should include at least one warning object in the "warnings" array. Each warning object will provide details regarding a specific warning.
+
+For the detail of the fields you should include, refer to: [[Error handling Error details]].
+
+We recommend adding and logging a unique instance identifier so that you can always find back where/when/why the warning was generated.
+
+You MAY add any other relevant information. Just be careful not to expose security-sensitive information when doing so.
+
+## Warnings keys/codes
+Each warning should have a unique "key/code" (e.g., detailKey or combination of titleKey and detailKey) as it will allow your API clients to add more intelligence. If you document all warning "keys/codes" in your API specifications, then clients may check for those specific warnings and build a better user experience based on those.
+
+For example in the case where the e-mail was not defined for a contact, by receiving a warning such as "CONTACT_EMAIL_NOT_DEFINED", the API client could directly propose adding one.
 
 ## When to include/exclude warnings
 When warnings are raised subsequently to a CREATE operation, they SHOULD be returned directly. This behavior should not be optional. We assume that providing the warnings upon creation makes sense in most cases.
@@ -51,17 +65,8 @@ GET .../contacts/<uuid>?style=compact
 
 This may be seen as an optimization, but mobile usage scenarios and costly data plans should not be ignored when designing your API.
 
-# Additional design considerations for warnings
-As you may have noticed in the example above, we do not provide guidance regarding the structure or contents of the warnings. This is because it may vary a lot depending on the considered use cases.
-
-As a rule of thumb though, we recommend including some unique "key/code" to your warnings as these allow your API clients to add more intelligence (and also easily add support for internationalization).
-
-If you document all warning "keys/codes" in your API specifications, then clients may check for those specific warnings and build a better user experience based on those.
-
-For example in the case where the e-mail was not defined for a contact, by receiving a warning such as "CONTACT_EMAIL_NOT_DEFINED", the API client could directly propose adding one.
-
 # Dedicated resource for warnings
-In some cases it might be useful to provide a dedicated resource where your API clients can check for the presence of warnings. For example a resource such as: .../contracts/<uuid>warnings).
+In some cases it might be useful to provide a dedicated resource where your API clients can check for the presence of warnings. For example a resource such as: .../contracts/<uuid>/warnings).
 
 This MAY be useful for cases where clients should be able to easily check for the presence of warnings without retrieving representations of the entities.
 
