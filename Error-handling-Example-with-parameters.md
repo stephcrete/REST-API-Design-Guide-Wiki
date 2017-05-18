@@ -18,7 +18,7 @@ HTTP/1.1 400
                 "2015-12-05"
             ]
             "fields": [
-                "start-date"
+                "startDate"
             ],
             "identifier": "9335d74d-2649-4eec-a272-ab2803e25a40"
         }
