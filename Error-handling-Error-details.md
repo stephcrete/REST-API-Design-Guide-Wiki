@@ -55,6 +55,7 @@ In addition to the "errors" array, the JSON object that your API returns SHOULD 
     * add it to all relevant log/audit statements
     * provide it in the instance field described here
 * (optional) timestamp: provides a timestamp for the error message
+* (optional) metadata: provides additional error metadata. Metadata MUST be an object but MAY contain anything you want
 
 You SHOULD see the above properties as more generic error information (e.g., validation error, business exception, etc). Error objects are those responsible for passing specific error information.
 
@@ -82,8 +83,15 @@ In addition, it SHOULD also include the following attributes:
   * you MAY use then when you return multiple errors
 * (optional) index: an integer value (zero-based) corresponding to the position in the source collection
   * this is useful for bulk operations where the error needs to be mapped back to a specific item in the source collection that was given
+* (optional) metadata: provides additional error metadata. Metadata MUST be an object but MAY contain anything you want
+Error handling Example with additional metadata
 
 You MAY add any other relevant information. Just be careful not to expose security-sensitive information when doing so.
 
 ## Error keys/codes
 Each error should have a unique "key/code" (e.g., detailKey or combination of titleKey and detailKey) as it will allow your API clients to add more intelligence. If you document all error "keys/codes" in your API specifications, then clients may check for those specific errors and build a better user experience based on those.
+
+## Metadata
+As can be see above, a "metadata" object can be added to both the general information part of the error payload and the error details.
+
+This should be seen as a way to provide additional information in error payloads.
