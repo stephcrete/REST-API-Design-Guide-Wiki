@@ -143,6 +143,8 @@
 
 [[Error handling Example with parameters]]
 
+[[Error handling Example with additional metadata]]
+
 [[Error handling Warnings]]
 
 # Compression
