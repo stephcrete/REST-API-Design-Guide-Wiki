@@ -7,6 +7,16 @@
       <th align="left">Comments</th>
     </tr>
     <tr>
+      <td align="center">1.4</td>
+      <td align="center">2017-05-22</td>
+      <td align="center">@dSebastien</td>
+      <td align="left">
+        <ul>
+          <li>Error handling: added the possibility to provide metadata in error payloads: [[Error handling Error details]]. Example: [[Error handling Example with additional metadata]]</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td align="center">1.3</td>
       <td align="center">2017-05-17</td>
       <td align="center">@dSebastien</td>
