@@ -17,3 +17,6 @@ in that case, the identifier MUST be included (uuid) to allow the client to find
 Collections can be very large. For this reason, all collection responses SHOULD be paginated. Refer to the pagination section to see how this works.
 
 ⚠️ AVOID at all costs requesting many elements in a collection. Prefer issuing smaller, more targeted requests in order to limit the number of resources to retrieve at once. This is important for performance, but also for client costs & resource usage (e.g., bandwidth, memory consumption, page rendering speed, etc).
+
+# No results
+When there are no entries matching the criteria, just return the same data structure with an empty "items" array (i.e., do not return a 404!).
