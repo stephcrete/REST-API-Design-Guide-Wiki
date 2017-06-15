@@ -6,7 +6,7 @@ To create a single item, you SHOULD issue a POST request against the parent coll
 # Rules for the client
 * MUST define the _Accept header_ to specify the list of media types it supports/prefers
 * MUST define the _Content-Type_ header to specify the media type of the request body.
-* MAY pass an _echo_ attribute with the following values
+* MAY pass an _echo_ query parameter with the following values
   * ⚠️ ONLY if the server supports/accepts it
   * none: SHOULD not return a response body
   * id: SHOULD only return the id (UUID!) of the created resource(s)
