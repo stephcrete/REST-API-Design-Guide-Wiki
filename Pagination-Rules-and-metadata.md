@@ -47,4 +47,4 @@ See concurrency section
 See sorting section
 
 ## Omitting metadata
-You MAY add support for a "exclude-metadata" URI parameter if you want your API clients to be able to exclude the metadata.
+You MAY add support for a "excludeMetadata" URI parameter if you want your API clients to be able to exclude the metadata.
