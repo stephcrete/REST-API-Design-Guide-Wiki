@@ -6,7 +6,8 @@ Use for required elements.
 If an element identifies a resource, it should be in the path. For example: `.../api/v1/cars/1`
 
 # Query string
-Use for options (e.g., paging, filtering, sorting, ...)
+Use for options (e.g., paging, filtering, sorting, ...).
+Query parameters should be written in camelCase (e.g., excludeMetadata)
 
 # Body
 Use for actual contents and for complex search queries (query by example)
