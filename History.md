@@ -7,6 +7,17 @@
       <th align="left">Comments</th>
     </tr>
     <tr>
+      <td align="center">1.5</td>
+      <td align="center">2017-06-15</td>
+      <td align="center">@dSebastien</td>
+      <td align="left">
+        <ul>
+          <li>Pagination: changed the name of the exclude metadata query parameter to "excludeMetadata"</li>
+          <li>Pagination: added some naming conventions for query parameters (should be camelCase)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td align="center">1.4</td>
       <td align="center">2017-05-22</td>
       <td align="center">@dSebastien</td>
