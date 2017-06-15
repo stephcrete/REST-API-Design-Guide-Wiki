@@ -1,6 +1,6 @@
 Just like with pagination, sorting information should be reflected in the API responses for collections.
 
-If you implement sorting, then the response MUST contain a "metadata" object containing information about the sorting (see below).
+If you implement sorting, then the response MUST contain a "metadata" object containing information about the sorting (see below). Although, API clients MAY still exclude the metadata section by using the "excludeMetadata" query parameter.
 
 The metadata object MUST contain:
 * sortedBy: array of objects describing the sorting information
