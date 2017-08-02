@@ -6,4 +6,4 @@ Searching data through a RESTful API can be considered at different levels:
 In addition you may
 * [[perform complex search operations|Searching Advanced search]]
 * [[use wildcards|Searching Wildcards]]
-* [[use formatting|Searching Formatting]]
+* [[specify a custom format for the results representation|Searching Formatting]]
