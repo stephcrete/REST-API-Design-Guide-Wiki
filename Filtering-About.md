@@ -1,4 +1,5 @@
 In some circumstances, you might want to let the clients of your API be able to filter the data that you return to them.
+What we mean by filtering in our case is _customizing the representations_. If you want to search then the filtering section is not what you're after.
 
 To do this, there are two approaches:
 * YOU SHOULD define representation styles
