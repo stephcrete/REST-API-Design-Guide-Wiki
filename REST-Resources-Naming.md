@@ -24,7 +24,7 @@ Bad examples:
 * `/createBill`
 
 # Kebab case
-Resource names should be written using kebab-case (separate words by hyphens). This is explained here: ]]
+Resource names should be written using kebab-case (separate words by hyphens). This is explained here: [[REST Resources URIs]]
 
 Good example:
 * `/contract-types`
