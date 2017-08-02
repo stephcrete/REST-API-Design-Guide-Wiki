@@ -23,6 +23,17 @@ Bad examples:
 * `/sendPayment`
 * `/createBill`
 
+# Snake case
+Resource names should be written using snake-case.
+
+Good example:
+* `/contract-types`
+
+Bad example:
+* `/contractTypes`
+
+Why? To more easily distinguish between the URI path elements and query parameters (which should use camelCase)
+
 # Concrete names
 Resources SHOULD have concrete names.
 
