@@ -23,8 +23,8 @@ Bad examples:
 * `/sendPayment`
 * `/createBill`
 
-# Snake case
-Resource names should be written using snake-case.
+# Kebab case
+Resource names should be written using kebab-case (separate words by hyphens). This is explained here: ]]
 
 Good example:
 * `/contract-types`
