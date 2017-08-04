@@ -1,5 +1,5 @@
 ```
-POST /employeesBulk
+POST .../employees-bulk
 {
     "items": [
         {
