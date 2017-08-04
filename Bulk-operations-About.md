@@ -7,4 +7,4 @@ Let's suppose that you have employees (/employees) and you need to reassign many
 
 When you do so, you can either:
 * perform n requests: one POST request per employee with the new location value (e.g., POST /employees/123 ... /456... /789...)
-* perform a single POST request against a specific collection resource (e.g., POST /employeesBulk) with all the updates to perform
+* perform a single POST request against a specific collection resource (e.g., POST /employees-bulk) with all the updates to perform
