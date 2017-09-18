@@ -13,3 +13,4 @@ The items placed in the sortedBy array MUST be defined in the correct order. The
 
 ## Example
 Check out the example here: [[Sorting-Example]]
+And also the example of how it fits along with the rest of the pagination metadata: [[Pagination-Example]]
