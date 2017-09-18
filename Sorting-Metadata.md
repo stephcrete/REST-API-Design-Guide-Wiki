@@ -10,3 +10,6 @@ The items placed in the sortedBy array MUST contain:
 * order: the order of the sorting on that field: ASC|DESC
 
 The items placed in the sortedBy array MUST be defined in the correct order. The order will be kept (JSON mandates that arrays are ordered sequences).
+
+## Example
+Check out the example here: [[Sorting-Example]]
