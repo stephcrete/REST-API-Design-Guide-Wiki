@@ -13,3 +13,6 @@ Within the _metadata_ object of paginated responses, the following should be inc
 This is necessary to avoid the "N+1" requests problem that we would have if a client wants to update multiple records while he has only the ETag for a collection and not the ETag value for all items in the paginated response.
 
 > Note that we've used an object so that the lookup on the client-side can be done in constant time (i.e., O(1))
+
+# Example
+Check out the [[Pagination-Example]] page.
