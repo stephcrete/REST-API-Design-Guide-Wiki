@@ -68,6 +68,8 @@
 
 [[Pagination Out of range/bounds]]
 
+[[Pagination Metadata example]]
+
 # Filtering
 [[Filtering About]]
 
