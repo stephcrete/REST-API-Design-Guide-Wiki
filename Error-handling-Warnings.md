@@ -33,6 +33,7 @@ For example:
     }
 }
 ```
+Check out the [[Pagination-Example]] page to see how this fits with the rest of the metadata.
 
 With the above structure, you make it very clear that warnings are not PART of the actual data but are metadata.
 
