@@ -41,10 +41,10 @@ These defaults SHOULD apply even if limit/offset are not specified explicitly in
 If each item is very large, then you MAY set the limit lower. On the opposite, if objects are very small, a larger limit could make sense (i.e., less requests = potentially increased performance perceived).
 
 ## Metadata for concurrency control
-See concurrency section
+See concurrency section: [[Concurrency-vs-Pagination]]
 
 ## Metadata for sorting
-See sorting section
+See sorting section: [[Sorting-Metadata]]
 
 ## Metadata for warnings
 Check out the following page: [[Error-handling-Warnings]]
@@ -52,7 +52,9 @@ Check out the following page: [[Error-handling-Warnings]]
 ## Custom metadata
 In addition to all the above, you MAY also introduce custom metadata as you see fit. If you do so, for client implementation simplicity, you SHOULD add it inside a "custom" object within the "metadata" object. Here's an example:
 
-Check out the following page for an example: ...
-
 ## Omitting metadata
 You MAY add support for a "excludeMetadata" URI parameter if you want your API clients to be able to exclude the metadata.
+
+## Example
+Check out the [[Pagination-Example]] page for a representative example.
+Also check out examples of 
