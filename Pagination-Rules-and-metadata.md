@@ -57,4 +57,3 @@ You MAY add support for a "excludeMetadata" URI parameter if you want your API c
 
 ## Example
 Check out the [[Pagination-Example]] page for a representative example.
-Also check out examples of 
