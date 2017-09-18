@@ -46,5 +46,13 @@ See concurrency section
 ## Metadata for sorting
 See sorting section
 
+## Metadata for warnings
+Check out the following page: [[Error-handling-Warnings]]
+
+## Custom metadata
+In addition to all the above, you MAY also introduce custom metadata as you see fit. If you do so, for client implementation simplicity, you SHOULD add it inside a "custom" object within the "metadata" object. Here's an example:
+
+Check out the following page for an example: ...
+
 ## Omitting metadata
 You MAY add support for a "excludeMetadata" URI parameter if you want your API clients to be able to exclude the metadata.
