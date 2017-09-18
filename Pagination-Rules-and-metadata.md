@@ -44,7 +44,7 @@ If each item is very large, then you MAY set the limit lower. On the opposite, i
 See concurrency section: [[Concurrency-vs-Pagination]]
 
 ## Metadata for sorting
-See sorting section: [[Sorting-Metadata]]
+See sorting section: [[Sorting-Metadata]] and the corresponding example: [[Sorting-Example]]
 
 ## Metadata for warnings
 Check out the following page: [[Error-handling-Warnings]]
