@@ -8,3 +8,9 @@ By adding support for caching and conditional requests, you can:
 * gain performance and client-perceived latency
 * increase reliability
 * reduce the server load
+
+# Sections
+* [[Caching and conditional requests Rules]]
+* [[Caching and conditional requests HTTP headers]]
+* [[Conditional requests]]
+* [[Cache control]]
