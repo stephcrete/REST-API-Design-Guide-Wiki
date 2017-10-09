@@ -7,3 +7,11 @@ In addition you may
 * [[perform complex search operations|Searching Advanced search]]
 * [[use wildcards|Searching Wildcards]]
 * [[specify a custom format for the results representation|Searching Formatting]]
+
+# Sections
+* [[Searching Local search]]
+* [[Searching Scoped search]]
+* [[Searching Global search]]
+* [[Searching Advanced search]]
+* [[Searching Wildcards]]
+* [[Searching Formatting]]
