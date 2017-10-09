@@ -6,3 +6,8 @@ Filtering is very useful to reduce bandwidth consumption and limit data exchange
 To do this, there are two approaches:
 * YOU SHOULD define representation styles
 * YOU MAY provide full flexibility through includes/excludes
+
+# Sections
+* [[Filtering Using styles]]
+* [[Filtering Using includes]]
+* [[Filtering Using excludes]]
