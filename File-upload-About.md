@@ -9,3 +9,7 @@ Also, there are considerations around the size, encoding and charset of the file
 
 # Sections
 * [[File upload File sizes]]
+* [[File upload Simple file upload]]
+* [[File upload Simple file upload example]]
+* [[File upload Complex file upload]]
+* [[File upload Complex file upload example]]
