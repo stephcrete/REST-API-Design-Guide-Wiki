@@ -6,3 +6,6 @@ There are multiple variants of file uploads to consider:
 * upload of files and metadata
 
 Also, there are considerations around the size, encoding and charset of the files / representations.
+
+# Sections
+* [[File upload File sizes]]
