@@ -37,3 +37,8 @@ HTTP/1.1 200 OK
     ...
 }
 ```
+
+# Sections
+* [[Pagination Rules and metadata]]
+* [[Pagination Example]]
+* [[Pagination Out of range bounds]]
