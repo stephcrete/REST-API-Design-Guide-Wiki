@@ -12,3 +12,4 @@ In this section we give some guidance regarding error handling, things to do and
 * [[Error handling Example with multiple errors]]
 * [[Error handling Example with parameters]]
 * [[Error handling Example with additional metadata]]
+* [[Error handling Warnings]]
