@@ -11,3 +11,6 @@ Example:
 GET ...?sort=title+DESC
 GET ...?sort=title+DESC,author+ASC
 ```
+# Sections
+* [[Sorting Metadata]]
+* [[Sorting Example]]
