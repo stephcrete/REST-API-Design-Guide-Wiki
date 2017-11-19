@@ -7,6 +7,16 @@
       <th align="left">Comments</th>
     </tr>
     <tr>
+      <td align="center">1.6</td>
+      <td align="center">2017-11-18</td>
+      <td align="center">@dSebastien</td>
+      <td align="left">
+        <ul>
+          <li>Bulk operations: added details about concurrency and how to pass the ETags in the update requests</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td align="center">1.5</td>
       <td align="center">2017-06-15</td>
       <td align="center">@dSebastien</td>
