@@ -14,6 +14,12 @@ POST /employees-bulk
         },
         ...
     ],
+    metadata: {
+        etags: {
+            "<uuid>": "<etag>",
+            ..
+        }
+    }
     ...
 }
 ```
@@ -21,3 +27,5 @@ POST /employees-bulk
 Notice that:
 * the first item in the provided collection has an ID --> update
 * the second item in the provided collection does not have an ID -> create
+* there's an entry in the ETags map for each update (if and only if the ETags are mandatory for the resource to update)
+  * for items to create there's indeed no ETag to provide
