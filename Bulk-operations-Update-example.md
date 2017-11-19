@@ -12,6 +12,9 @@ POST /employees-bulk
         },
         ...
     ],
+    metadata: {
+        ....
+    }
     ...
 }
 ```
