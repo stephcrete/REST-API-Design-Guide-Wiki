@@ -9,7 +9,7 @@ When you do so, you can either:
 * perform n requests: one POST request per employee with the new location value (e.g., POST /employees/123 ... /456... /789...)
 * perform a single POST request against a specific collection resource (e.g., POST /employees-bulk) with all the updates to perform
 
-For bulk updates, you shall pass a metadata object along with the items for the ETag values. Take a look at [Concurrency-vs-Pagination](Concurrency vs Pagination) for an example.
+For bulk updates, you shall pass a metadata object along with the items for the ETag values. Take a look at [[Concurrency-vs-Pagination]] for an example.
 
 # Section
 * [[Bulk operations Types]]
