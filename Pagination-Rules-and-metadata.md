@@ -8,7 +8,7 @@
     * offset: where to start
       * MUST NOT be < 0
     * offset and limit MUST both be specified by API clients. If either is missing, default values are applied
-      * limit: 10
+      * limit: 10 (also set to this if 0 is passed)
       * offset: 0
 * a paginated response MUST contain
   * an "items" array containing the corresponding results
