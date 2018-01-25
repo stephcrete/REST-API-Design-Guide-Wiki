@@ -3,7 +3,7 @@
 * API clients MUST be able to clearly specify the slice of the data set they want to retrieve.
   * you MUST use _limit_ and _offset_ query string attributes for pagination. It's a pattern that is well understood and used in most databases
     * limit: the maximum number of elements to return at once
-      * MUST NOT be < 0
+      * MUST be > 0
       * MUST NOT be > 1000
     * offset: where to start
       * MUST NOT be < 0
