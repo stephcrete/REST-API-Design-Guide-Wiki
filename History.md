@@ -7,6 +7,16 @@
       <th align="left">Comments</th>
     </tr>
     <tr>
+      <td align="center">1.7</td>
+      <td align="center">2018-07-26</td>
+      <td align="center">@dSebastien</td>
+      <td align="left">
+        <ul>
+          <li>HTTP Methods: clearly stated that GET MUST be safe; cfr #13</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td align="center">1.6</td>
       <td align="center">2017-11-18</td>
       <td align="center">@dSebastien</td>
