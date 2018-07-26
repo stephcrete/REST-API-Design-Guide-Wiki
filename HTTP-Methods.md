@@ -20,6 +20,7 @@ GET is used to retrieve resources
 
 Characteristics:
 * safe
+  * this is a MUST actually, as one never expects a GET call to have side-effects
 * idempotent
 * cacheable
 
