@@ -16,7 +16,7 @@ Idempotent operations...
 More information here: http://restcookbook.com/HTTP%20Methods/idempotency/
 
 # GET
-GET is used to retrieve resources
+GET is used to retrieve resource representations
 
 Characteristics:
 * safe
