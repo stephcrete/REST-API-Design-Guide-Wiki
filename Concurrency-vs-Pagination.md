@@ -16,3 +16,6 @@ This is necessary to avoid the "N+1" requests problem that we would have if a cl
 
 # Example
 Check out the [[Pagination-Example]] page.
+
+# Alternative
+Alternatively, the ETag value can be provided in the representation.
