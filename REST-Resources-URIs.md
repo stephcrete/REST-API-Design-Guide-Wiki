@@ -4,13 +4,13 @@
 `URI = scheme "://" authority "/" path [ "? query ] [ "#" fragment ]`
 
 # Example
-`https://www.nbb.be/hello-world?param1=value1&param2=value2#section1`
+`https://www.nbb.be/helloWorld?param1=value1&param2=value2#section1`
 
 In the above example:
 * protocol/scheme: https://
 * sub-domain: www
 * domain: nbb.be
-* path: /hello-world
+* path: /helloWorld
 * query string: ?param1=value1
 * query parameters
   * param1: value1 (key: value)
@@ -21,7 +21,7 @@ In the above example:
 # Rules
 The URIs MUST be:
 * completely in lowercase
-* with kebab/spinal case: a-super-uri (i.e., hyphens to separate elements)
+* with lowerCamelCase: where the first letter of the first word of the sentence is a small letter, and then every first letter of the subsequent words is a capital letter, and the remaining letters of that word are in lower case.
 * as flat as possible (resources should be just below the API entry point)
   * api/v1/employees rather than api/v1/enterprise/department/service/division/employees
   * :x: do NOT cross-reference everything, there's no need to repeat the database relations in the URL representations

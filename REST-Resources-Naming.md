@@ -23,16 +23,14 @@ Bad examples:
 * `/sendPayment`
 * `/createBill`
 
-# Kebab case
-Resource names should be written using kebab-case (separate words by hyphens). This is explained here: [[REST Resources URIs]]
+# lower camel case
+Resource names should be written using lowerCamelCase (part of CamelCase) and is a naming convention in which a name is formed of multiple words that are joined together as a single word with the first letter of each of the multiple words (except the first one) capitalized within the new word that forms the name.This is explained here: [[REST Resources URIs]]
 
 Good example:
-* `/contract-types`
-
-Bad example:
 * `/contractTypes`
 
-Why? To more easily distinguish between the URI path elements and query parameters (which should use camelCase)
+Bad example:
+* `/contract-types`
 
 # Concrete names
 Resources SHOULD have concrete names.

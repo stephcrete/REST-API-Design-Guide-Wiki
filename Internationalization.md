@@ -53,7 +53,7 @@ Accept-Language: nl-BE,en-US
 Your API clients MAY use a wildcard in the Accept-Language header '*' if they prefer to receive ANY representation rather than an error.
 
 # Defining the languages in the URL
-Your API MAY also support defining the language(s) in the URL by specifying a 'lang' parameter and give the same language codes as with the Accept-Language header; for example:
+Your API SHOULD also support defining the language(s) in the URL by specifying a 'lang' parameter and give the same language codes as with the Accept-Language header; for example:
 
 ```
 GET .../products/1234?lang=fr-BE

@@ -10,6 +10,7 @@ A media type is composed of
 
 Some examples:
 * text/html
+* text/csv
 * application/json
 * application/xml
 * application/x-www-form-urlencoded

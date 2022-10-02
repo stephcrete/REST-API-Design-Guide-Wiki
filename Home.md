@@ -1,8 +1,7 @@
 # About
 Welcome!
 
-This is the REST API Design Guide of the [National Bank of Belgium](https://www.nbb.be).
-This guide describes all design choices made for the creation of REST-like APIs at the National Bank of Belgium.
+The repository hosts the REST API Design Guide of [Statistics Canada](https://www.statcan.gc.ca/). It is a copy of the the REST API Design Guide of the [National Bank of Belgium](https://www.nbb.be) imported from the following github repository (https://github.com/NationalBankBelgium/REST-API-Design-Guide).
 
 # Why
 Choices choices choices...
@@ -14,7 +13,7 @@ There are many design choices to make:
 
 When there are many options to choose from, development teams can argue forever about the best solution for each use case.
 
-There are various standardization efforts that cover a lot of ground and multiple ways to formalize "REST" APIs (e.g., json-api, OData, OpenAPI, ...) but none that catered for all aspects we wanted to cover in the APIs of the National Bank of Belgium.
+There are various standardization efforts that cover a lot of ground and multiple ways to formalize "REST" APIs (e.g., json-api, OData, OpenAPI, ...) but none that catered for all aspects we wanted to cover in the APIs of Statistics Canada.
 
 While preparing for the development of our APIs, we've decided to create our own design guide, with our own choices, covering our current and known future needs.
 
@@ -30,10 +29,6 @@ Nevertheless, so far, we have chosen not to implement HATEOAS in our design; alt
 There are tools and libraries that can help you with implementing support for level 3 in an easy way (e.g., [Spring HATEOAS](http://projects.spring.io/spring-hateoas/), ...).
 
 *So to be clear, this is not a truly RESTful API design guide.*
-
-If you're curious, we had a very interesting discussion over this here:
-* https://github.com/NationalBankBelgium/REST-API-Design-Guide/issues/8
-* https://github.com/NationalBankBelgium/REST-API-Design-Guide/issues/9
 
 # Features
 Our REST API Design Guide covers... 
